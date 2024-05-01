@@ -684,5 +684,6 @@ void SetRoamerPokemonFromCompanion(void);
 u8 RandomizePokemonType(u8 type, u32 personality, bool8 isSecondtype);
 u16 RandomizePokemonAbility(u16 ability, u32 personality);
 u8 GetThirdTypeFromPersonality(u32 personality, u16 type1, u16 type2);
+bool8 SpeciesHasInnate(u16 species, u16 ability);
 
 #endif // GUARD_POKEMON_H
